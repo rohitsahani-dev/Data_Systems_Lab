@@ -27,49 +27,6 @@ This repository is designed to:
 
 ---
 
-## 📁 Project Structure
-
-
-data-systems-lab/
-│
-├── 01_python_core/
-│ ├── day01/
-│ │ ├── 01_variables_types.py
-│ │ ├── 02_input_output.py
-│ │ ├── 03_conditions.py
-│ │ └── 04_loops.py
-│ │
-│ ├── day02/
-│ ├── day03/
-│
-├── 02_data_analysis/
-│ ├── pandas_basics/
-│ ├── numpy_basics/
-│ └── data_cleaning/
-│
-├── 03_algorithms/
-│ ├── sorting/
-│ ├── searching/
-│ └── recursion/
-│
-├── 04_machine_learning/
-│ ├── regression/
-│ ├── classification/
-│ └── projects/
-│
-├── 05_ai_projects/
-│ ├── chatbot/
-│ ├── ai_api/
-│ └── web_ai/
-│
-└── 06_deployment/
-├── flask_apps/
-├── fastapi_apps/
-└── docker_basics/
-
-
----
-
 ## 📌 Current Progress
 
 ### ✔ Day 1 Completed
