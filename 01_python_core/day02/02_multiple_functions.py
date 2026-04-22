@@ -12,14 +12,13 @@ def divide(a,b):
         raise ValueError("Cannot divide by zero")
     return round(a/b, 3)
 
-# Example usage
-
 operations ={
     '*': multiply,
     '-': subtract,
     '+': add,
     '/': divide
 }
+
 def calculator():
     print("Welcome to the simple calculator!")
     while True:
@@ -43,6 +42,7 @@ def calculator():
             if cont.lower() != "yes":
                 print("Thank you for using the calculator!")
                 break
+
         except ValueError as e:
             print(f"Error: {e}")
 
