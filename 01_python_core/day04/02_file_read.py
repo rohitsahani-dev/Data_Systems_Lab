@@ -1,0 +1,5 @@
+file = open("data.txt","r")
+content = file.read()
+print("Content of file 'data.txt': ")
+print(content)
+file.close()
