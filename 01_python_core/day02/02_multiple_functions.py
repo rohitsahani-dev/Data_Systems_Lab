@@ -9,35 +9,41 @@ def multiply(a,b):
 
 def divide(a,b):
     if b==0:
-        return "Error: Division by zero is not possible."
+        raise ValueError("Cannot divide by zero")
     return round(a/b, 3)
 
 # Example usage
-while True:
-    try:
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
 
-        select = input("Select operation (*,-,+,/): ")
+operations ={
+    '*': multiply,
+    '-': subtract,
+    '+': add,
+    '/': divide
+}
+def calculator():
+    print("Welcome to the simple calculator!")
+    while True:
+        try:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
 
-        # Validate the operation selection
-        while select not in ['+', '-', '*', '/']:
-            print("Invalid selection. Please select a valid operation.")
             select = input("Select operation (*,-,+,/): ")
 
-        if select == '+':
-            print(f"{num1} + {num2} = {add(num1,num2)}")
-        elif select == '-':
-            print(f"{num1} - {num2} = {subtract(num1,num2)}")
-        elif select == '*':
-            print(f"{num1} * {num2} = {multiply(num1,num2)}")
-        elif select == '/':
-            print(f"{num1} / {num2} = {divide(num1,num2)}")
-        cont = input("Do you want to perform another calculation? (yes/no): ")
+            # Validate the operation selection
+            if select not in operations:
+                print("Invalid operation")
+                continue
 
-        # Validate the continuation input
-        if 'yes' not in cont.lower():
-            print("Thank you for using the calculator!")
-            break
-    except ValueError:
-        print("Invalid input. Please enter numeric values.")
+            result = operations[select](num1, num2)
+            print(f"The result of {num1} {select} {num2} is : {(result)}")
+
+            cont = input("Do you want to perform another calculation? (yes/no): ")
+
+            # Validate the continuation input
+            if cont.lower() != "yes":
+                print("Thank you for using the calculator!")
+                break
+        except ValueError as e:
+            print(f"Error: {e}")
+
+calculator()
