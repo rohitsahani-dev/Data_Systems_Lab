@@ -2,54 +2,70 @@
 
 Welcome to the **Database** module of **Data Systems Lab**.
 
-This section provides a structured journey from database fundamentals to advanced SQL concepts. Every topic includes clear explanations, practical examples, and best practices used in real-world software development.
+This module is a complete, structured guide to learning databases and SQL—from the fundamentals to advanced concepts and real-world projects. Every lesson builds on the previous one with clear explanations, practical examples, and best practices used in the software industry.
 
-## Learning Objectives
+---
+
+# Learning Objectives
 
 By the end of this module, you will be able to:
 
 * Understand how databases store and manage data
 * Design relational databases
-* Write SQL queries with confidence
+* Write SQL queries confidently
 * Perform CRUD operations
 * Use joins, subqueries, and window functions
-* Optimize SQL queries using indexes
+* Optimize queries with indexes
 * Work with transactions and ACID properties
 * Design normalized database schemas
 * Build complete database projects
 
-## Learning Roadmap
+---
 
-### 01. Database Fundamentals
+# Course Roadmap
 
-* What is a Database?
-* Why Databases are Important
-* Types of Databases
-* DBMS vs RDBMS
-* SQL vs NoSQL
-* Database Architecture
-* Normalization
+## ✅ 01. Database Fundamentals
 
-### 02. SQL Basics
+| Lesson                     | Status      |
+| -------------------------- | ----------- |
+| 01. What is a Database?    | ✅ Completed |
+| 02. DBMS vs RDBMS          | ✅ Completed |
+| 03. Types of Databases     | ✅ Completed |
+| 04. SQL vs NoSQL           | ✅ Completed |
+| 05. Database Architecture  | ✅ Completed |
+| 06. ACID Properties        | ✅ Completed |
+| 07. Database Normalization | ✅ Completed |
 
-* Creating Databases
-* Creating Tables
-* Inserting Data
-* Retrieving Data
-* Filtering Data
-* Sorting Results
+---
 
-### 03. Intermediate SQL
+## 🚀 02. SQL Basics
 
+* ⏳ Create Database
+* ⏳ Create Table
+* ⏳ Insert Data
+* ⏳ SELECT Statement
+* ⏳ WHERE Clause
+* ⏳ ORDER BY
+* ⏳ LIMIT
+* ⏳ DISTINCT
+* ⏳ Aliases
+* ⏳ Comments
+
+---
+
+## 📚 03. Intermediate SQL
+
+* Filtering
 * Operators
-* Functions
-* Aggregations
+* Aggregate Functions
 * GROUP BY
 * HAVING
 * Joins
 * Subqueries
 
-### 04. Advanced SQL
+---
+
+## ⚡ 04. Advanced SQL
 
 * Views
 * Transactions
@@ -59,14 +75,18 @@ By the end of this module, you will be able to:
 * Window Functions
 * Common Table Expressions (CTEs)
 
-### 05. Database Design
+---
+
+## 🏗️ 05. Database Design
 
 * Entity Relationship Diagrams (ERDs)
 * Relationships
 * Normalization
 * Schema Design
 
-### 06. Real-World Projects
+---
+
+## 💼 06. Real-World Projects
 
 * Student Management System
 * E-commerce Database
@@ -76,21 +96,52 @@ By the end of this module, you will be able to:
 
 ---
 
-## Prerequisites
+# Folder Structure
 
-No prior database knowledge is required. Basic computer skills are sufficient.
+```text
+database/
+│
+├── README.md
+├── 01_database_fundamentals/
+├── 02_sql_basics/
+├── 03_filtering/
+├── 04_functions/
+├── 05_grouping/
+├── 06_joins/
+├── 07_subqueries/
+├── 08_constraints/
+├── 09_modifying_data/
+├── 10_indexes/
+├── 11_views/
+├── 12_transactions/
+├── 13_stored_procedures/
+├── 14_triggers/
+├── 15_window_functions/
+├── 16_common_table_expressions/
+├── 17_database_design/
+├── 18_query_optimization/
+├── 19_real_world_projects/
+├── 20_interview_questions/
+└── 21_cheat_sheet/
+```
 
 ---
 
-## Progress
+# Prerequisites
 
-### Database Fundamentals
+* Basic computer skills
+* No previous database experience required
 
-- ✅ 01. What is a Database?
-- ✅ 02. DBMS vs RDBMS
-- ✅ 03. Types of Databases
-- ✅ 04. SQL vs NoSQL
-- ✅ 05. Database Architecture
+---
 
+# Progress
 
-Happy Learning!
+* **Database Fundamentals:** 7/7 ✅
+* **SQL Basics:** 0/10 ⏳
+* **Intermediate SQL:** 0%
+* **Advanced SQL:** 0%
+* **Real-World Projects:** 0%
+
+---
+
+Happy Learning! 🚀
