@@ -82,4 +82,15 @@ No prior database knowledge is required. Basic computer skills are sufficient.
 
 ---
 
+## Progress
+
+### Database Fundamentals
+
+- ✅ 01. What is a Database?
+- ✅ 02. DBMS vs RDBMS
+- ✅ 03. Types of Databases
+- ✅ 04. SQL vs NoSQL
+- ✅ 05. Database Architecture
+
+
 Happy Learning!
